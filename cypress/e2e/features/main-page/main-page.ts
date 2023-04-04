@@ -58,8 +58,8 @@ Then("I should see O wins", () => {
   cy.get(".cell").eq(7).click();
 });
 
-Then("I should see the {string} game once the game is over", () => {
-  cy.get("#restartButton").click();
+Then("I should see the {string} button once the game is over", () => {
+  cy.get("#restartButton").should("be.visible");
 });
 
 Then("I am able to click on any cell", () => {
