@@ -32,7 +32,7 @@ Scenario: Verify the the Third is won by O .
     When I visit the Main Page
     Then I should go to 'Offline-Multiplayer' while clicking it
     Then I should see O wins
-    Then I should see the 'Restart' button once the game is over
+   
 
 Scenario: Verify the Restart button is visible once game is played .
     When I visit the Main Page
