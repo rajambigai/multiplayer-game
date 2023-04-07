@@ -1,7 +1,6 @@
 {
   "name": "multiplayer-game",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "cypress": "cypress open"
@@ -23,5 +22,6 @@
   },
   "dependencies": {
     "typescript": "^4.8.3"
-  }
+  },
+  "description": ""
 }

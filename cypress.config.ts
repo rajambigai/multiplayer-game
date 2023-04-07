@@ -18,7 +18,7 @@ module.exports = defineConfig({
       return config;
     },
     specPattern: ["cypress/e2e/features/*.feature"],
-    baseUrl: "https://hegdes007.github.io/tic-tac-toe",
+    baseUrl: "https://hegdes007.github.io/tic-tac-toe/",
     chromeWebSecurity: false,
     defaultCommandTimeout: 4000,
   },
